@@ -1,0 +1,379 @@
+@media(max-width:1400px) {
+    .area-cards {
+
+        height: 100%;
+        width: 30%;
+
+    }
+
+    .card-front {
+        width: 396px;
+        height: 225px;
+        margin-left: 150px;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .card-front .dados-card {
+
+        margin-top: 10px;
+    }
+
+    .card-front .icone-card {
+
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+
+
+    .card-back {
+        width: 396px;
+        height: 225px;
+        margin-left: 290px;
+        background-size: cover;
+        background-position: center;
+
+    }
+}
+
+
+
+@media(max-width:1200px) {
+
+    .area-cards {
+
+        height: 100%;
+        width: 30%;
+
+    }
+
+    .card-front {
+        width: 326px;
+        height: 195px;
+        margin-left: 120px;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .card-front .dados-card {
+
+        margin-top: 10px;
+    }
+
+    .card-front .icone-card {
+
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    .card-back {
+        width: 326px;
+        height: 195px;
+        margin-left: 230px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+
+}
+
+@media(max-width:1000px) {
+
+    .area-card-holder,
+    .area-card-number,
+    .area-date-cvc,
+    .area-btn {
+        width: 320px;
+    }
+
+
+
+}
+
+@media(max-width:870px) {
+
+    .area-card-holder,
+    .area-card-number,
+    .area-date-cvc,
+    .area-btn {
+        width: 280px;
+    }
+
+
+    .card-front {
+        width: 306px;
+        height: 185px;
+        margin-left: 80px;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+
+    .card-back {
+        width: 306px;
+        height: 185px;
+        margin-left: 120px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .numero-card {
+        font-size: 1.3rem;
+    }
+
+    .nome-card,
+    .data-card {
+        font-size: 0.7rem;
+    }
+
+
+
+}
+
+@media(max-width:750px) {
+
+    .area-cards {
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .container {
+        margin-top: 380px;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .card-front {
+        position: relative;
+        bottom: 0;
+        width: 326px;
+        height: 195px;
+        margin: 270px 200px 0px 0px;
+        z-index: 1;
+        padding-bottom: 30px;
+    }
+
+
+    .card-back {
+        position: absolute;
+        top: 0;
+        width: 326px;
+        height: 195px;
+        margin: 70px 0px 0px 0px;
+
+    }
+
+}
+
+@media(max-width:580px) {
+    .area-cards {
+        height: 35%;
+        width: 100%;
+
+    }
+ 
+
+    .area-card-holder, 
+    .area-card-number, 
+    .area-date-cvc,.area-btn {
+        width: 483px;
+    }
+
+    .container {
+        margin-top: 380px;
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .card-front .icone-card {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card-front {
+      
+        width: 326px;
+        height: 195px;
+        margin: 270px 140px 0px 0px;
+      
+        padding-bottom: 30px;
+    }
+
+  
+    .card-back {
+        width: 326px;
+        height: 195px;
+        margin: 50px 0px 0px 0px;
+
+    }
+
+}
+
+@media(max-width:450px) {
+
+    .area-cards {
+        height: 30%;
+        width: 100%;
+    }
+    
+    .area-card-holder, 
+    .area-card-number, 
+    .area-date-cvc,.area-btn {
+        width: 390px;
+    }
+
+    
+    .container {
+        margin-top: 290px;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .card-front .icone-card {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card-front {
+        margin: 200px 54px 0px 0px;
+        z-index: 1;
+        padding-bottom: 30px;
+    }
+
+
+    .card-back {
+        margin: 25px 0px 0px 45px;
+
+    }
+
+}
+
+
+@media(max-width:400px) {
+
+    .area-cards {
+        height: 30%;
+        width: 100%;
+    }
+    .area-card-holder, 
+    .area-card-number, 
+    .area-date-cvc,.area-btn {
+        width: 350px;
+    }
+
+    
+    .container {
+        margin-top: 300px;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .card-front .icone-card {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card-front {
+        margin: 200px 54px 0px 0px;
+    }
+
+
+    .card-back {
+      
+        width: 326px;
+        height: 195px;
+        margin: 20px 0px 0px 37px;
+
+    }
+
+}
+
+
+@media(max-width:375px) {
+
+ 
+    
+    .container {
+        margin-top: 300px;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .card-front .icone-card {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .card-front {
+        width: 290px;
+        height: 165px;
+        margin: 200px 54px 0px 0px;
+    }
+
+
+    .card-back {
+        width: 290px;
+        height: 165px;
+        margin: 20px 0px 0px 27px;
+
+    }
+    .btn{
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:280px) {
+
+    .container {
+        margin-top: 270px;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .card-back {
+        width: 240px;
+        height: 145px;
+        margin: 20px 0px 0px 27px;
+
+    }
+
+    .card-front {
+        width: 250px;
+        height: 145px;
+        margin: 170px 24px 0px 0px;
+    }
+
+    .area-card-holder, 
+    .area-card-number, 
+    .area-date-cvc,.area-btn {
+        width: 240px;
+    }
+    .numero-card{
+        font-size: 1.1rem;
+    }
+    .card-front .icone-card {
+        width: 100%;
+        padding: 4px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@import "responsive.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+
+
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.area-cards {
+    position: fixed;
+    background-size: cover;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.card-front {
+    width: 447px;
+    height: 245px;
+    margin-left: 270px;
+    background-size: cover;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 20px 2px black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.card-front .numeros-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+
+}
+
+.numeros-card .numero-card {
+    letter-spacing: 1px;
+    width: 100%;
+    padding-left: 20px;
+    
+}
+
+
+.card-front .dados-card {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.card-front .icone-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.card-front .icone-card .icone1 {
+    width: 50px;
+    height: 47px;
+   
+}
+
+.card-front .icone-card .icone2 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.card-back {
+    width: 447px;
+    height: 245px;
+    margin-left: 420px;
+    
+    box-shadow: 1px 1px 20px 2px black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+.cvc {
+    color: white;
+
+}
+
+
+
+.container {
+    position: fixed;
+    right: 0;
+    background-color: white;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.area-card-holder,
+.area-card-number {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    width: 400px;
+
+
+}
+
+.area-date-cvc {
+    display: flex;
+    width: 400px;
+
+    margin: 10px;
+}
+
+.area-date {
+    width: 70%;
+
+}
+
+.campo-holder {
+    width: 100%;
+}
+
+.campo-number,
+.campo-cvc,
+.area-cvc {
+    width: 100%;
+}
+
+.campo-exp-date,
+.campo-exp-date2 {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    outline-color: hsl(278, 94%, 30%);
+    text-align: center;
+
+}
+
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    outline-color: hsl(278, 94%, 30%);
+}
+
+
+
+.area-btn {
+    width: 400px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    cursor: pointer;
+    text-transform: none;
+    margin-top: 30px;
+    font-size: 1.1rem;
+
+}
+
+.btn-continue{
+    display: none;
+    margin-bottom: 10px;
+}
+
+.area-checked {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.area-checked span {
+    color: rgb(163, 163, 163);
+    text-transform: none;
+}
+
+.area-checked h1 {
+    letter-spacing: 3px;
+}
+
+.span-required {
+    display: none;
+    text-transform: none;
+    font-size: 0.7rem;
+    color: red;
+}
+
+.errorInput {
+    border: 2px solid red !important;
+}

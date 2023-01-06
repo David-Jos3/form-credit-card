@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Interactive card details form</title>
+  </head>
+  <body>
+    <section
+      class="area-cards"
+      style="background-image: url('./images/bg-main-desktop.png')"
+    >
+      <div
+        class="card-front"
+        style="background-image: url('./images/bg-card-front.png')"
+      >
+        <div class="icone-card">
+          <div class="icone1" style=" background-image: url('images/card-logo.svg');"></div>
+          <div class="icone2"></div>
+        </div>
+        <div class="numeros-card">
+          <h2 class="numero-card">0000 0000 0000 0000</h2>
+        </div>
+
+        <div class="dados-card">
+          <span class="nome-card">jane appleseed</span>
+          <span class="data-card">00/00</span>
+        </div>
+      </div>
+      <div class="card-back" style="background-image: url('images/bg-card-back.png');">
+        <span class="cvc">000</span>
+      </div>
+    </section>
+
+    <section class="container">
+      <form id="form">
+        <div class="area-checked">
+          <img src="images/icon-complete.svg" alt="" />
+          <h1>Thank you !</h1>
+          <span>We've added your card details</span>
+        </div>
+
+        <div class="area-card-holder">
+          <label for="">cardholder name</label>
+          <input
+            type="text"
+            name="cardholder"
+            class="campo-holder required"
+            placeholder="e.g.Jane Appleseed"
+            maxlength="22"
+          />
+          <span class="span-required">Can`t be blank </span>
+        </div>
+
+        <div class="area-card-number">
+          <label for="">card number</label>
+          <input
+            type="text"
+            name="cardnumber"
+            class="campo-number required"
+            placeholder="e.g. 1234 5678 9132 0000"
+          />
+          <span class="span-required">Wrong format, numbers only</span>
+        </div>
+
+        <div class="area-date-cvc">
+          <div class="area-date">
+            <label for="">exp.date(mm/yy)</label><br />
+            <input
+              type="text"
+              class="campo-exp-date required"
+              maxlength="2"
+              placeholder="MM"
+            />
+            <input
+              type="text"
+              class="campo-exp-date2 required"
+              maxlength="4"
+              placeholder="YY"
+            />
+            <span class="span-required">Can`t be blank or invalid date</span>
+          </div>
+
+          <div class="area-cvc">
+            <label for="">cvc</label><br />
+            <input
+              type="password"
+              name=""
+              class="campo-cvc required"
+              placeholder="eg.123"
+              maxlength="3"
+            />
+            <span class="span-required">Can`t be blank</span>
+          </div>
+        </div>
+        <div class="area-btn">
+          <button class="btn">Confirm</button>
+          <button class="btn btn-continue">Continue</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
